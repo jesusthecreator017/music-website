@@ -1,0 +1,50 @@
+body {
+    background-image: linear-gradient(to bottom, #6F0000, #000000);
+    min-height: 100vh;
+}
+
+h1 {
+    /* Set font and color */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+    color: #FFFFFF;
+
+    /* Set the position */
+    position: relative;
+    left: 18cm;
+    top: 5cm;
+}
+
+h3 {
+    /* Set font and color */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+    margin-bottom: 5px;
+}
+
+.styled-input {
+    width: 525px;
+    height: 60px;
+}
+
+
+.frosted-glass-box{
+    /* Set position */
+    position: relative;
+    left: 20px;
+    top: 175px;
+
+    width: 550px;
+    padding: 20px;
+    margin: 50px auto;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: cetner;
+    color: white;
+}
